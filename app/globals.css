@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* ===== Couleurs BransMarket ===== */
+.bg-orange-500,
+.bg-orange-600,
+.bg-\[\#FF6B00\] {
+  background-color: #1E40AF !important;
+}
+
+.hover\:bg-orange-600:hover,
+.hover\:bg-\[\#FF6B00\]:hover {
+  background-color: #1E3A8A !important;
+}
+
+.text-orange-500,
+.text-\[\#FF6B00\] {
+  color: #1E40AF !important;
+}
+
+.border-orange-500,
+.border-\[\#FF6B00\] {
+  border-color: #1E40AF !important;
+}
+
+/* ===== Variables ===== */
+:root {
+  --brand-blue: #1E40AF;
+  --brand-blue-dark: #1E3A8A;
+  --amazon-blue: #131921;
+  --amazon-light: #232f3e;
+  --amazon-orange: #FF9900;
+  --amazon-yellow: #FEBD69;
+}
+
+/* ===== Bouton ===== */
+.btn-amazon {
+  background-color: #FF9900;
+  color: black;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.btn-amazon:hover {
+  background-color: #e88b00;
+}

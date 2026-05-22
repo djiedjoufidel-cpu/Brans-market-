@@ -1,0 +1,13 @@
+{
+  "Common": {
+    "contactSeller": "Contacter le vendeur",
+    "order": "Commander",
+    "price": "Prix",
+    "loading": "Chargement...",
+    "language": "Langue"
+  },
+  "Shop": {
+    "noProducts": "Aucun produit pour l'instant",
+    "products": "Produits"
+  }
+}

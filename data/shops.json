@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1779126551316,
+    "name": "Brandon",
+    "owner": "Brandon",
+    "phone": "657715307",
+    "city": "Yaoundé",
+    "description": "Je vends tout ",
+    "logo": "/logo-default.png",
+    "verified": false,
+    "rating": 0
+  },
+  {
+    "id": 1779191533500,
+    "name": "Brans",
+    "owner": "Brandon ",
+    "phone": "651715307",
+    "city": "Yaoundé",
+    "description": "A vendre ",
+    "logo": "/uploads/shop-1779191533488-17791914843384751391849751377030.jpg",
+    "verified": false,
+    "rating": 0
+  },
+  {
+    "id": 1779192112494,
+    "name": "Brandon ",
+    "owner": "Brandon Njiehou",
+    "phone": "657715307",
+    "city": "Yaoundé",
+    "description": "Vend",
+    "logo": "/logo-default.png",
+    "verified": false,
+    "rating": 0
+  }
+]
