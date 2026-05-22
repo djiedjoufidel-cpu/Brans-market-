@@ -2,6 +2,9 @@ import { NextRequest, NextResponse } from 'next/server'
 import { writeFile } from 'fs/promises'
 import path from 'path'
 
+export const runtime = 'nodejs'
+export const dynamic = 'force-dynamic'
+
 export async function POST(req: NextRequest) {
   try {
     const data = await req.formData()
@@ -22,16 +25,10 @@ export async function POST(req: NextRequest) {
 
     // URL publique accessible
     const url = `/uploads/${fileName}`
-    
+
     return NextResponse.json({ url })
   } catch (error) {
     console.error(error)
     return NextResponse.json({ error: 'Erreur upload' }, { status: 500 })
   }
-}
-
-export const config = {
-  api: {
-    bodyParser: false,
-  },
 }
